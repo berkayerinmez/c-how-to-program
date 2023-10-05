@@ -2,15 +2,16 @@
 
 int main()
 {
+    int c, thisVariable, q76354, number;
     int a;
-    
+    number = 8;
     printf("Enter an integer: \n");
     
     scanf("%d", &a );
     
-    printf("Your number is: %d\n", a);
+    printf("You write: %d\n", a);
     
-    if (a != 7)
+    if (number != 7)
     {
         printf("The number is not 7!\n");
 
