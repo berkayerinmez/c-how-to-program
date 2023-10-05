@@ -8,7 +8,7 @@ int main()
     
     scanf("%d%d%d", &x, &y, &z);
     
-    result = x + y + z;
+    result = x * y * z;
     
     printf("The product is: %d\n", result);
     
