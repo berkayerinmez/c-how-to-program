@@ -10,7 +10,7 @@ int main(){
     printf("product is %d \n", num1 * num2);
     printf("difference is %d \n", num1 - num2);
     printf("quotient is %d \n", num1 / num2);
-    printf("remainder is %d \n", num1 & num2);
-
+    printf("remainder is %d \n", num1 % num2);
+    
     return 0;
 }
