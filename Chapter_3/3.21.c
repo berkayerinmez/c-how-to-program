@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void salary(float hours, float rate){
     float extra_Hours;
     if (hours <= 40)
