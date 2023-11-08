@@ -4,7 +4,7 @@ int main() {
 
 	int uc[1000], dort[1000], bes[1000], arr1[1000], num = 1, ve1=0, ve2=0, ve3=0, ve4=0;
 
-	while (num <= 1000){
+	while (num < 1000){
 		if(num % 3 == 0){
 			uc[ve1] = num;
 			ve1++;
@@ -15,7 +15,7 @@ int main() {
 	}
 
 	num=1;
-	while(num<=1000){
+	while(num<1000){
 		if(num % 4 ==0){
 			dort[ve2]= num;
 			ve2++;
@@ -26,7 +26,7 @@ int main() {
 	}
 
 	num = 1;
-	while(num<=1000){
+	while(num<1000){
 		if( num % 5 == 0){
 			bes[ve3] = num;
 			ve3++;
@@ -36,7 +36,7 @@ int main() {
 			num++;
 	}
 	num=1;
-	while (num <= 1000){
+	while (num < 1000){
 		if(num % 3 == 0 && num % 4 == 0 && num % 5 == 0){
 			arr1[ve4] = num;
 			ve4++;
