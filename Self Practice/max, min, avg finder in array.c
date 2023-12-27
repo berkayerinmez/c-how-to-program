@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-// max, min, avg veren fonskiyon yaz
 
 void stats(int *arr, int size, int *max, int *min, int *avg){
     *max = arr[0];
